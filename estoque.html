@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Monitoramento de Produtos</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img src="img/senac-logo-2.png" alt="Logo Senac">
+            <h1> Monitoramento de Estoque </h1>
+    </header>
+    <main>
+        <section class="dashboard">
+            <div class="card alert">
+                <h2>Alertas de Reposição</h2>
+                <ul>
+                    <li>Shampoo: <span class="ok">Estoque OK</span></li>
+                    <li>Condicionador: <span class="ok">Estoque OK</span></li>
+                    <li>Hidratação: <span class="falta">Baixo Estoque</span></li>
+                    <li>Creme de Barbea: <span class="ok">Estoque OK </span></li>
+                    <li>Cera depilatória: <span class="ok">Estoque OK </span></li>
+                </ul>
+            </div>
+            <div class="card produtos">
+                <h2>Produtos Disponíveis</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Produto</th>
+                            <th>Quantidade</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Shampoo</td>
+                            <td> 100 unidades</td>
+                            <td><span class="ok">OK</span></td>
+                        </tr>
+                        <tr>
+                            <td>Condicionador</td>
+                            <td>100 unidades</td>
+                            <td><span class="ok">OK</span></td>
+                        </tr>
+                        <tr>
+                            <td>Hidratação</td>
+                            <td> 19 unidades</td>
+                            <td><span class="falta">Repor</span></td>
+                        </tr>
+                        <tr>
+                            <td>Cera depilatória</td>
+                            <td>40 unidades</td>
+                            <td><span class="ok">OK</span></td>
+                        </tr>
+                        <tr>
+                            <td>Creme de Barbea</td>
+                            <td>80 unidades</td>
+                            <td><span class="ok">OK</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section class="reports">
+            <h2> Gráfico de consumo</h2>
+            <div class="pizza">
+                <img src="img/Janeiro.png" alt="Janeiro">
+                <img src="img/255.374.png"  alt="Fevereiro">
+            </div>
+            <div class="colu-2">
+                <img src="img/Março.png" alt="Março">
+                <img src="img/Abril.png" alt="Abril">
+            </div>
+            <div class="colu-2">
+                <img src="img/Maio.png" alt="Maio">
+                <img src="img/Junho.png" alt="Junho">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 - Sistema de Monitoramento de Produtos</p>
+    </footer>
+</body>
+</html>
