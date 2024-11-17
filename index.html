@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="login.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Login</title>
 </head>
@@ -141,27 +142,5 @@
             </div>
         </form>
     </div>
-    <script>
-        // função para validar o form
-        function validarFormulario(){
-            const Usuario = document.getElementById("Usuario").value;
-            const senha = document.getElementById("senha").value;
-
-            if (Usuario=== ""){
-                alert("Por favor preecha o campo usuário.");
-                return false;
-            }
-            if (senha === ""){
-                alert("Preecha o campo senha.");
-                return false;
-            }
-            redirecionarEstoque
-            ();
-        }
-        // função para ir para outra página
-        function redirecionarEstoque (){
-        window.location.href = "estoque.html"
-        }
-    </script>
 </body>
 </html>
